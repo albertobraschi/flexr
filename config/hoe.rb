@@ -1,7 +1,7 @@
 require 'flexr/version'
 
-AUTHOR = ['Marcos Piccinini']  # can also be an array of Authors
-EMAIL = "FIXME email"
+AUTHOR = ['Marcos Piccinini', 'Ramon Soares']  # can also be an array of Authors
+EMAIL = "flexr@ramonsoares.com"
 DESCRIPTION = "Ruby framework for flex and google graphics APIs"
 GEM_NAME = 'flexr' # what ppl will type to install your gem
 RUBYFORGE_PROJECT = 'flexr' # The unix name for your project
