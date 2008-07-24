@@ -18,18 +18,19 @@ h2. Demonstration of usage
 
 
 h2. Forum
+ 
+FIXME endereco forum redmine
+"http://redmine.fireho.comroup/flexr":http://groups.google.com/group/flexr
 
-"http://groups.google.com/group/flexr":http://groups.google.com/group/flexr
-
-TODO - create Google Group - flexr
 
 h2. How to submit patches
 
 Read the "8 steps for fixing other people's code":http://drnicwilliams.com/2007/06/01/8-steps-for-fixing-other-peoples-code/ and for section "8b: Submit patch to Google Groups":http://drnicwilliams.com/2007/06/01/8-steps-for-fixing-other-peoples-code/#8b-google-groups, use the Google Group above.
 
-TODO - pick SVN or Git instructions
 
-The trunk repository is <code>svn://rubyforge.org/var/svn/flexr/trunk</code> for anonymous access.
+== GIT
+
+The is <code>git://rubyforge.org/var/svn/flexr/trunk</code> for anonymous access.
 
 OOOORRRR
 
