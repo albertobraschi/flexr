@@ -1,7 +1,7 @@
 require 'flexr/version'
 
-AUTHOR = ['Marcos Piccinini']  # can also be an array of Authors
-EMAIL = ["chadart@gmail.com"]
+AUTHOR = ['Marcos Piccinini', 'Ramon Soares']  # can also be an array of Authors
+EMAIL = ["chadart@gmail.com","flexr@ramonsoares.com"]
 DESCRIPTION = "Ruby framework for flex and google graphics APIs"
 GEM_NAME = 'flexr' # what ppl will type to install your gem
 RUBYFORGE_PROJECT = 'flexr' # The unix name for your project
@@ -51,7 +51,11 @@ end
 # Generate all the Rake tasks
 # Run 'rake -T' to see list of generated tasks (from gem root directory)
 $hoe = Hoe.new(GEM_NAME, VERS) do |p|
-  p.developer(AUTHOR, EMAIL)
+  # bug with hoe?
+  #p.developer(AUTHOR, EMAIL)
+  p.author = AUTHOR 
+  p.email = EMAIL
+  # <<
   p.description = DESCRIPTION
   p.summary = DESCRIPTION
   p.url = HOMEPATH
